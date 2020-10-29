@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Grid Mapbox Box
- * Plugin URI: https://github.com/EdwardBock/grid-mapbox-box
+ * Plugin Name: Maps with Mapbox
+ * Plugin URI: https://github.com/EdwardBock/wp-mapbox
  * Description: Provides a Mapbox Box for Grid.
  * Version: 1.0
  * Author: Edward Bock <me@edwardbock.de>
@@ -11,10 +11,10 @@
  * License: http://www.gnu.org/licenses/gpl-2.0.html GPLv2
  *
  * @copyright Copyright (c) 2015, Edward Bock
- * @package PublicFunctionOrg\Grid\Mapbox
+ * @package PublicFunctionOrg\WordPress\Mapbox
  */
 
-namespace PublicFunctionOrg\Grid\Mapbox;
+namespace PublicFunctionOrg\WordPress\Mapbox;
 
 add_action( "grid_load_classes", function () {
 
